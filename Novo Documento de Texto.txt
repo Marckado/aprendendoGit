@@ -1,0 +1,93 @@
+
+git init - cria repositório git
+git add  - 
+15m40 iniciando git e criando commit
+
+
+git status mostra o estado 
+git push envia para github
+pull baixa do github
+
+
+Declaração de variável
+
+var (camelCase)
+
+var currentAge = 22
+
+var currentAge:Int? (a interrogação se refere a propriedadde da variávelde receber valor nulo)
+currentAge = null ou 22
+--------------
+Val  (camelCase)
+
+val currentAge = 22
+
+var currentAge:Int? (a interrogação se refere a propriedadde da variávelde receber valor nulo)
+currentAge = null ou 22
+
+Val é equivalente a final em Java
+
+---------
+
+Const Val (SNAKE_CASE)
+
+const val MIN_AGE = 16
+
+---------
+
+Operadores comparativos
+
+Maior/menor		a > b ou a < b		a.compareTo(b) > 0 ou a.compareTo(b) < 0
+Maior/menor/igual	a >= b ou a <= b	a.compareTo(b) > 0 ou a.compareTo(b) < 0
+Igual			a == b			a.equalsTo(b)		
+Diferente		a != b			!(a.equalsTo(b))
+
+----------
+
+Operadores lógicos
+
+E (&&)	(expressão1) and (expressão2)
+Ou (||)	(expressão1) ou (expressão2)
+
+Função e expressão
+
+Contém 			(in)
+Não contém		(!in)
+Range/faixa de valores	(int..int)
+
+-----------
+
+Manipulação de Strings
+
+val name = "Ana"
+val s = "Olá"
+
+println(s + name) // imprime oláAna
+println("${s}, ${name}!") // imprime Olá, Ana!
+println("Bem vindo(a), $name!") // imprime Bem vindo(a), Ana!
+
+Fun main() {
+val welcome = "Olá"
+val name = "luisa"
+	Print("$welcome, ${name.capitalize()}!")
+}
+// imprime Olá, Luisa!
+
+nome			função				métodos
+Captalização de		alterar a formatação entre	capitalize(), toUperCase() 
+Strings			minúsculas e maiúsculas		toLowerCase(), decapitalize()
+--------------------------------------------------------
+Remoção de espaços	remove espaços vazios e 	trimEnd(), trimStart(), trim()
+			caracteres inadequados
+			para impressão
+--------------------------------------------------------
+substituição de		substituir caracteres 		replace(x, y)
+caracteres		por outros
+--------------------------------------------------------
+formatação		formatar outros valores
+			para um valor padrão de String	"padrão ${valor}".format(valor)
+
+
+
+
+
